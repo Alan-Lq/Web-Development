@@ -1,0 +1,35 @@
+Week 13. Angular (HttpClient, Interceptors, ) & Django (DRF, FBV / CBV, Authentication, JWT)
+Angular (HttpClient, Interceptors, NgModel)
+
+https://angular.io/guide/http
+https://medium.com/angular-in-depth/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6
+https://www.tektutorialshub.com/angular/ngmodel-two-way-data-binding-in-angular/
+Django (DRF, FBV / CBV, Authentication, JWT)
+
+Wrapping API views
+Requests and Responses
+Class based view
+Authentication
+Permissions 
+
+http://jpadilla.github.io/django-rest-framework-jwt/
+https://github.com/adamchainz/django-cors-headers
+Lecture
+
+Lecture 13
+Screen records from lectures
+
+https://www.youtube.com/playlist?list=PL5TyHNdaKOrb1WmxAYVZsnBkeOQP4_yfj
+Examples from the lecture:
+
+https://github.com/bobur554396/WD2020Spring/tree/master/w13
+Lab Work
+
+https://docs.google.com/document/d/1Uqa9ok5U-q21Yu7TN6H5eiPPjYibPFmQ5lPA5hMpWpE/edit?usp=sharing
+
+Upload your works to your GitHub repo under the folder week13
+ 
+
+Pay attention!
+
+At week 15 you have to show 100% finished project with Angular and Django which are working with each other. Therefore, concurrently try to finish at least 70% this week.
