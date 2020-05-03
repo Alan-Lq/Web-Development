@@ -1,0 +1,26 @@
+Week 14. Django Filters, Searing, Ordering, Pagination
+Django Filters, Searing, Ordering, Pagination
+
+Django Filter
+DRF filtering
+DRF Pagination
+Lecture
+
+Lecture 14
+
+Screen records from lectures
+
+https://www.youtube.com/playlist?list=PL5TyHNdaKOrb1WmxAYVZsnBkeOQP4_yfj
+
+Examples from the lecture:
+
+https://github.com/bobur554396/WD2020Spring/tree/master/w14
+Pay attention!
+
+This week we don't have any lab works. We changed the deadline for the project defense to week 16. So, the timetable for each group will be provided soon. 
+
+Again, you have to:
+
+Show a fully finished Django project with all requests
+Angular projects must work with Django and implement all requests from our project requirements
+The last commit to GitHub: 26.04.2020 23:59
