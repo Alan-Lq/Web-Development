@@ -1,0 +1,50 @@
+Week 8. Introduction to Python and Django
+Introduction to Python and Django 
+
+Python programming language
+What is the API?
+Introduction to Django
+https://docs.djangoproject.com/en/2.2/
+https://docs.djangoproject.com/en/2.2/intro/
+https://tutorial.djangogirls.org/ru/
+Simple Tuts
+
+https://www.learnpython.org/
+https://www.codecademy.com/learn/learn-python
+PEP 8 Style Guide  https://www.python.org/dev/peps/pep-0008/
+Lecture
+
+Lecture 9
+Screen records from lectures:
+
+https://www.youtube.com/playlist?list=PL5TyHNdaKOrb1WmxAYVZsnBkeOQP4_yfj
+Examples from the lecture:
+
+https://github.com/bobur554396/WD2020Spring/tree/master/w9
+Setup workspace
+
+Install Python ( >= 3.6)
+Install comfortable Editor
+PyCharm Community Edition (recommended)
+Sublime Text 3
+WebStorm
+VS Code
+Labs (deadline next practice lesson):
+
+https://informatics.msk.ru/
+
+Ввод-вывод, оператор присваивания, арифметические операции: от А до E
+Условный оператор: от А до Е
+Циклы
+Цикл for: от A до M
+Цикл while: от А до E
+Массивы: от А до G
+Функции: от А до С
+Нужно реализовать свою функцию
+https://www.hackerrank.com/domains/python
+Top 10 problems with "Easy" difficulty
+https://codingbat.com/python
+All section in Python tab (from Warmup-1 till List-2)
+Practice to create new environment
+Create simple Django projects to understand all steps
+Upload your works to your GitHub repo under the folder week8
