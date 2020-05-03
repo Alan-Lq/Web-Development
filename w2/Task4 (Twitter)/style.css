@@ -1,0 +1,114 @@
+body {
+    background: top right 100% / 50% repeat-y url("./logo.jfif") , top left 100% / 50% repeat-y url("./white.jpg");
+    background-color: black;
+    margin:0px;
+    height: 100%;
+    
+}
+li {
+    list-style-type:none;
+    padding-bottom:22px;
+}
+
+.btn{
+
+    border-radius: 20px;
+    outline:none;
+    text-decoration: none;
+    border: 1px solid #1da1f2;
+
+}
+.btn:hover{
+    cursor: pointer;
+}
+#signin{
+    color:#1da1f2;
+    height: 1.2cm;
+    width:60px;
+    margin-left: 10px;
+    background-color: white;
+}
+#centerbtn1 {
+    width:330px;
+    height: 1cm;
+    background-color:#1da1f2 ;
+    color:white;
+}
+#centerbtn2 {
+    background-color: white;
+    color:#1da1f2;
+    width:330px;
+    height: 1cm;
+}
+.inputs{
+    border-radius: 5px;
+    border-style: hidden;
+    width:5.5cm ;
+    height: 1.2cm;
+    margin-top: 40px;
+    margin-left: 10px;
+    border: 1px solid lightgrey;
+    
+}
+.linput{
+    margin-left: 60%;
+}
+a{
+    text-decoration:none;
+    color:gray;
+}
+.blocks{
+    display: inline-block;
+}
+footer{
+    margin-bottom: 0px;
+    border-top: 1px;
+    border-top: #e6ecf0;
+    background-color: #ffffff;
+    
+    height: 80px;
+}
+.Footer-item{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 7px;
+    color:gray;
+    
+}
+.Footer-list{
+    margin-top: 140px;
+}
+.Footer-copyright{
+    text-align: center;
+    color:gray;
+    font-size: 12px;
+}
+.textleft {
+    padding-top: 0px;
+   color:white;
+    font-size: 19px;
+    font-family: Arial;
+   display: inline-block;
+   margin-left: 12%;
+}
+
+.textright {
+   color:black;
+    font-size: 17px;
+    font-family: Arial;
+    margin-left: 19%;
+}
+
+.icons {
+    width:30px;
+    height:30px;
+    padding-right:7px;
+}
+#birdicon{
+    width:30px;
+    height: 30px;
+    margin:0px;
+    padding: 0px;
+}
+

@@ -1,0 +1,38 @@
+<div class="wrapper">
+  <app-categories
+    (selectCategory)="onSelectCategory($event)"
+    (deleteCategory)="onDeleteCategory($event)"
+    (updateCategory)="onUpdateCategory($event)"
+    (addCategory)="onAddCategory($event)"
+    (searchCategory)="onSearchCategory($event)"
+
+    [selectedCategory]="selectedCategory"
+    [categories]="categories">
+
+  </app-categories>
+  <div class="main-panel">
+    <app-nav></app-nav>
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <app-tasks (updateTask)="onUpdateTask($event)"
+                       (deleteTask)="onDeleteTask($event)"
+                       (selectCategory)="onSelectCategory($event)"
+                       (addTask)="onAddTask($event)"
+
+                       [selectedCategory]="selectedCategory"
+                       (filterByTitle)="onSearchTasks($event)"
+                       (filterByPriority)="onFilterTasksByPriority($event)"
+                       (filterByStatus)="onFilterTasksByStatus($event)"
+
+                       [tasks]="tasks"
+                       [priorities]="priorities">
+            </app-tasks>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--взят template у Creative-t-->

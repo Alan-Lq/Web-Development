@@ -1,0 +1,160 @@
+body{
+    margin: 50px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+}
+main .Registration-form .image-side img{
+    margin-bottom: 100px;
+}
+
+.Registration-form{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+}
+.Registration{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    width: 350px;
+}
+.Registration h2{
+    font-size: 35px;
+    font-weight: 10;
+    margin: 50px;
+}
+.Registration p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    color: grey;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Registration button {
+width:260px;
+height: 1cm;
+border:1px;
+background-color: #3897f0;
+border-radius: 5px;
+color:white;
+font-weight: bold;
+}
+.Registration h5{
+    border: 1px solid;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3897f0;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.Registration span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Registration  span hr{
+    width: 100px;
+    margin: 5px;
+    height: 0.05px;
+    background-color: lightgrey;
+    color: lightgrey;
+}
+::placeholder{
+    font-size: 12px;
+    color: slategrey;
+}
+.Registration input{
+    width: 250px;
+    height: 30px;
+    margin: 3px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+.Registration-form input[type=submit]{
+    background-color: #3897f0;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.Registered-accounts{
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    padding: 10px;
+    width: 335px;
+    color: black;
+}
+.Apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Apps .Apps-img{
+    display: flex;
+}
+.Apps .Apps-img img{
+    width: 150px;
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 0%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .footer span ul li{
+    color:gray;
+    display: inline; 
+    margin-right: 5px; 
+    padding: 3px;
+}
+.footer span p{
+    color:gray;
+    font-size: 12px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a{
+    text-decoration: none;;
+}
+
+
+
+
+
+
+
+
+
+
+

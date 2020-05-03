@@ -1,0 +1,289 @@
+body{
+  position: fixed;
+  background: rgb(21,32,43) no-repeat center top/cover;
+  font-family: 'Muli', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.twitter{
+  position: relative;
+  height: 530px;
+  width: 635px;
+}
+
+.search-logo{
+  position: relative;
+  bottom: 315px;
+  right:510px;
+  filter: invert(100%);
+  width: 25px;
+  height: 25px;
+}
+
+.txt1{
+  position: relative;
+  bottom: 345px;
+  left: 170px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+
+.txt2{
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  bottom: 325px;
+  left:170px;
+}
+
+.com-logo{
+  position: relative;
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  left: 125px;
+  bottom:290px;
+}
+
+.txt3{
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  bottom: 310px;
+  left:170px;
+
+}
+
+.message-logo{
+  position: relative;
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  left: 125px;
+  bottom:275px;
+}
+
+.twitter-logo{
+  position: relative;
+  filter: invert(100%);
+  width: 40px;
+  height: 40px;
+  bottom: 600px;
+  left:760px;
+}
+
+.txt4{
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  font-size: 27px;
+  bottom:580px;
+  left: 760px;
+}
+
+.txt5{
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  bottom:520px;
+  left:760px;
+}
+
+.btn{
+  height: 50px;
+  width: 400px;
+  position: relative;
+  bottom: 500px;
+  right: -760px;
+  font-size: 20px;
+  font-weight: bold;
+  color:#fff;
+  background-color: #458af7;
+  border:solid 1px transparent;
+  border-radius: 60px;
+
+}
+
+.btn:hover{
+  background: #3470cf;
+}
+
+.btn2{
+  height: 50px;
+  width: 400px;
+  position: relative;
+  bottom: 440px;
+  right: -355px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #458af7;
+  background-color: rgb(21,32,43);
+  border: solid 1px transparent;
+  border-color: #458af7;
+  border-radius: 60px;
+}
+
+.btn2:hover{
+  background: rgb(32, 34, 66);
+}
+
+.a0{
+  position: relative;
+  font-size:13px;
+  bottom:280px;
+  left:-790px;
+  font-weight: lighter;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a1{
+  position: relative;
+  font-size:13px;
+  bottom:280px;
+  left:-780px;
+  font-weight: lighter;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a2{
+  position: relative;
+  font-size:13px;
+  bottom:280px;
+  left:-770px;
+  font-weight: lighter;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a3{
+  position: relative;
+  font-size:13px;
+  bottom:280px;
+  left:-760px;
+  font-weight: lighter;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a4{
+  position: relative;
+  font-size:13px;
+  bottom:280px;
+  left:-750px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a5{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:530px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a6{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:540px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a7{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:550px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a8{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:560px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a9{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:570px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a10{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:580px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a11{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:590px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a12{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:600px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a13{
+  position: relative;
+  font-size:13px;
+  bottom:314px;
+  left:610px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a14{
+  position: relative;
+  font-size:13px;
+  bottom:285px;
+  right: 100px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+.a15{
+  position: relative;
+  font-size:13px;
+  bottom:285px;
+  right:90px;
+  text-decoration: none;
+  color:rgb(107, 110, 108);
+}
+
+span{
+  position: relative;
+  font-size: 13px;
+  bottom: 285px;
+  right: 80px;
+  color:rgb(107, 110, 108);
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 5%;
+    background-color: #222222;
+    color:grey;
+}
+section {
+    margin-left: 40%;
+}
+.btns{
+    display: inline-block;
+}
+#add {
+    background-color: #337ab7;
+    border-radius: 5px;
+    border-color: #337ab7;
+    border:1px;
+    color:white;
+    width: 50px;
+    height: 0.7cm;
+}
+.main > input {
+    width: 300px;
+}
+li {
+    list-style-type: none;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    width: 350px;
+    height: 1cm;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    right: auto;
+    padding-top: 10px;
+}
+.list {
+    padding: 0px;
+}
+ul li.checked {
+    text-decoration: line-through;
+  }
+ 
+  .close {
+      float: right;
+  }
+  
+
+ 

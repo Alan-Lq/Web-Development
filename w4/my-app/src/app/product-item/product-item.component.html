@@ -1,0 +1,30 @@
+<h2 style="text-align: center;">Products</h2>
+<div id=blocks *ngFor="let product of products">
+    
+  <h3>
+   
+        
+        <img class=images src={{product.src}}> 
+        <img class=images src={{product.src2}}>
+        <img class=images src={{product.src3}}>
+         <br>
+         <a href = "{{product.href}}">
+      {{ product.name }}
+    </a> 
+   
+  </h3>
+<p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+  <p>
+      Price: {{product.price}}$
+  </p>
+  <p>
+      Rating: {{product.rating}}/5
+  </p>
+  <a id =telegram href="https://telegram.me/share/url?url={{product.href}}&text={{product.name}}">
+ <button  id=tlgbutton>
+      Share telegram
+ </button>
+  </a>
+</div>

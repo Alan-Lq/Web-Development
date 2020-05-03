@@ -1,0 +1,13 @@
+<div *ngFor="let vacancy of vacancies">
+    <div class='block'>
+        <p>
+        {{vacancy.name}}
+</p>
+       
+   Description: {{vacancy.description}}<br>
+   Salary: {{vacancy.salary}}$<br>
+    Company: {{vacancy.company.name}}
+</div>
+
+</div>
+<button routerLink='' class="back">Back</button>

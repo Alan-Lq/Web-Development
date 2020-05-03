@@ -1,0 +1,6 @@
+<div *ngFor="let category of categories">
+  <div (click)="onSelectCategory(category)">{{category.title}}</div>
+</div>
+<div *ngFor="let task of tasks">
+  <div>{{task.title}} + " " + {{task.priority.title}}</div>
+</div>

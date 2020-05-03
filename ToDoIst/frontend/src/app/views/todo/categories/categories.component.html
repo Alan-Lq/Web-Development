@@ -1,0 +1,45 @@
+<div class="sidebar" data-background-color="white" data-color="purple" data-image="../assets/img/sidebar-1.jpg">
+  <div class="logo">
+    <span class="simple-text logo-normal">
+      Категории
+    </span>
+    <span class="add-icon-are">
+      <button mat-icon-button class="add-icon" (click)="openAddDialog()">
+        <mat-icon>add</mat-icon>
+      </button>
+    </span>
+  </div>
+  <div class="sidebar-wrapper">
+    <ul class="nav">
+      <!-- категория 'Все'-->
+      <li (click)="showTasksByCategory(null)" [class.active]="selectedCategory === null"
+          class="nav-item category">
+        <a class="nav-link pointer">
+          <!--название категории-->
+          <span class="all-category-title">Все</span>
+        </a>
+      </li>
+      <!-- разделитель-->
+      <div class="line"></div>
+      <li
+        (click)="showTasksByCategory(category)" (mouseenter)="showEditIcon(index)"
+        (mouseleave)="showEditIcon(null)"
+        *ngFor="let category of categories; let index = index "
+        [class.active]="category === selectedCategory"
+        class="nav-item pointer">
+        <a class="nav-link">
+          <!--          название категории-->
+          <span class="category-title">{{category.title}}</span>
+          <!--         кнопка редактирования категории-->
+          <span class="edit-category-icon-area">
+            <mat-icon
+              (click)="$event.stopPropagation(); openEditDialog(category)"
+              *ngIf="indexMouseMove === index"
+              class="edit-category-icon">edit
+            </mat-icon>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
