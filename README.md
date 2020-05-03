@@ -1,3 +1,7 @@
+
+https://www.youtube.com/playlist?list=PL5TyHNdaKOrb1WmxAYVZsnBkeOQP4_yfj
+
+
 h1 Web Development course based on Angular and Django
 ***
 1)virtualenv env
